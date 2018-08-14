@@ -17,7 +17,7 @@
     "morgan": "~1.9.0",
     "popper.js": "^1.14.4"
   },
-  "description": "Demo for Express Generator",
+  "description": "Template Project for Final Test",
   "main": "server.js",
   "author": "Tom Tsiliopoulos",
   "license": "MIT",
