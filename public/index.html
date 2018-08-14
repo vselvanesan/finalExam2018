@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Final Test</title>
     <link rel="stylesheet" href="/bootstrap/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/font-awesome/css/font-awesome.css">
+    <link rel="stylesheet" href="/@fortawesome/fontawesome-free/css/all.min.css">
     <link rel="stylesheet" href="/Content/app.css">
 </head>
 
@@ -23,7 +23,10 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="index.html"><i class="fa fa-home fa-lg"></i> Home</a>
+                        <a class="nav-link" href="index.html"><i class="fas fa-home fa-lg"></i> Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contacts.html"><i class="fas fa-users fa-lg"></i> Contacts</a>
                     </li>
                 </ul>
             </div>
@@ -36,17 +39,39 @@
                 <h1 class="display-4">COMP125 - S2018 - Final Test</h1>
                 <p class="lead">This is the Client-Side Web Development Final Test Project Template</p>
                 <hr class="my-4">
-                <p>It uses two components of the MEAN Stack</p>
-                <ul>
-                    <li>NodeJS</li>
-                    <li>ExpressJS</li>
-                </ul>
+
+                <div class="row">
+                    <div class="col-md-4">
+                        <p>It uses two components of the MEAN Stack:</p>
+                        <ul class="list-group">
+                            <li class="list-group-item"><i class="fab fa-node-js fa-lg"></i> NodeJS <a href="https://nodejs.org/en/"
+                                    target="_blank"><i class="fa fa-chevron-circle-right fa-2x right"></i></a></li>
+                            <li class="list-group-item"><span class="fa-layers fa-fw"><i class="far fa-square fa-lg"></i>
+                                    <span class="fa-layers-text" style="font-weight:400" data-fa-transform="shrink-3 up-2">ex</span>
+                                    </span> </span> ExpressJS <a href="https://expressjs.com/" target="_blank"><i class="fa fa-chevron-circle-right fa-2x right"></i></a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-md-4">
+                        <p>..and it uses two CSS Frameworks:</p>
+                        <ul class="list-group">
+                            <li class="list-group-item"><span class="fa-layers fa-fw"><i class="fas fa-square fa-lg" style="color:#602C50;"></i>
+                                    <span class="fa-layers-text fa-inverse" style="font-weight:700">B</span> </span> </span>
+                                Bootstrap<a href="http://getbootstrap.com/" target="_blank"><i class="fa fa-chevron-circle-right fa-2x right"></i></a></li>
+                            <li class="list-group-item"><i class="fab fa-font-awesome fa-lg" style="color: #228AE6;"></i>
+                                Font Awesome<a href="https://fontawesome.com/icons?d=gallery" target="_blank"><i class="fa fa-chevron-circle-right fa-2x right"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <hr class="my-4">
+                <p>Use this page as your dashboard</p>
             </div>
         </div>
     </main>
 
     <script src="/jquery/dist/jquery.min.js"></script>
     <script src="/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="/@fortawesome/fontawesome-free/js/all.min.js"></script>
     <script src="/Scripts/app.js"></script>
 </body>
 
